@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Logout({ user, handleDeleteAccount, handleLogout }) {
+export default function Logout({ user, handleDeleteAccount, handleLogout, assignRandomLogo }) {
     return (
         <div className="navbar bg-base-200 rounded">
             <div className="navbar-start">
@@ -26,8 +26,3 @@ export default function Logout({ user, handleDeleteAccount, handleLogout }) {
         </div>
     );
 }
-
-
-
-
-
